@@ -50,8 +50,11 @@ git checkout -b dev   (-b for create a new branch)
 	
 ### To see all the remote + local branches 
 git branch -a
+	
 git branch -r
+	
 gitk --all
+	
 gitk --remotes
 
 git branch <branch-name> origin/<branch-name>
