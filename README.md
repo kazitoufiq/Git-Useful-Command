@@ -39,12 +39,21 @@ Difference between clone  & pull :
 	- clone - at the very beginning  (full entire repo)
 	- Pull - only latest changes that local repo doesn't have
 
+git clean -f  (remove everything in working directory)   - won't touch anything in staging
+git rm <filename>
+git log
+	
+### HOW TO CUT A NEW BRANCH
+
+git branch
+git checkout -b dev   (-b for create a new branch) 
+	
+### To see all the remote + local branches 
+git branch -a
+git branch -r
+gitk --all
+gitk --remotes
+
+git branch <branch-name> origin/<branch-name>
 
 
-	- git clean -f  (remove everything in working directory)   - won't touch anything in staging
-	- git rm <filename>
-
-
-
-	- git log
-![image](https://user-images.githubusercontent.com/8044757/209327772-313e8b1a-9bdf-4ee2-9757-1e420813f96c.png)
