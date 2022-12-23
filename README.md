@@ -7,6 +7,7 @@
 $ git remote -v
 
 origin  https://kazitoufiq@dev.azure.com/kazitoufiq/mlops/_git/DatabricksDevOps (fetch)
+
 origin  https://kazitoufiq@dev.azure.com/kazitoufiq/mlops/_git/DatabricksDevOps (push)
 
 
@@ -17,5 +18,6 @@ $ git remote set-url origin git@ssh.dev.azure.com:v3/kazitoufiq/mlops/Databricks
 $ git remote -v
 
 origin  git@ssh.dev.azure.com:v3/kazitoufiq/mlops/DatabricksDevOps (fetch)
+
 origin  git@ssh.dev.azure.com:v3/kazitoufiq/mlops/DatabricksDevOps (push)
 
