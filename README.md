@@ -57,6 +57,6 @@ gitk --all
 	
 gitk --remotes
 
-git branch <branch-name> origin/<branch-name>
+git branch  branch-name  origin/branch-name
 
 
